@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evernote Landing Page</title>
+    <script src="https://kit.fontawesome.com/efa6a31927.js" crossorigin="anonymous"></script>
+
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap" rel="stylesheet"> -->
+<!-- <link href="http://fonts.cdnfonts.com/css/soleil" rel="stylesheet"> -->
+<!-- <link href="//db.onlinewebfonts.com/c/a8eb231468d8e1f51b4baaa17280f2c7?family=Soleil" rel="stylesheet" type="text/css"/>               -->
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="root" class="root">
+        <nav class="nav-style d-flex justify-space-between col-12 ">
+
+            <ul class="d-flex align-items-center justify-space-between nav-left col-6">
+                    <li >
+                        <img class="logo-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABNElEQVR4nO2asUoDQRRFbyEIYpVYCLYWYcy8CKms7G39Dzs/wg8xc5kihYWlttppZ2HpH2hlE9nsEmQQhA3J27e8A9vPvec9ppgFHGvcH+9iJldgfALjFygL1a8VeXKEJC/qh+c6QSoTXQvBNkGW49SBg3PdICk+9ySIfPYjCDtwaHqQX/zXTA4DbIL5aLhdI5uEHuQP3Ii10ZqPhujFstPvkYVfiPTREv2doC97g3bzdCMF2s3TjRRoN083UqDdPN1IgXbzdCMF2s3TjRRoN083UqDdPN1IQS+NpOrRZ3yB2+kBzMFViAc8nu/ALGyC5NMA0zB+L4NUr7umobzXRsZnME2Sm2a8XnE33YNZchggxY964eUNlEvkcAiTzCYnqxHryteaHPaR4nV9l1j9qcbB1vkB6tG7ATXKzQ0AAAAASUVORK5CYII=" alt="" >
+                    </li>
+                    <li class="nav-left-items">WHY EVERNOTE</li>
+                    <li class="nav-left-items" id="feature-dropdownmenu">FEATURES
+                        <span class="caret">&#9660;</span>
+                        <div class="feature-dropdownmenu d-flex col-12">
+                            <ul class="feature-dropdownmenu-list d-flex">
+                                <li class="feature-item d-flex">
+                                    <img class="plans" src="https://img.icons8.com/?size=100&id=41414&format=png&color=000000" alt="" srcset="">
+                                    <div class="labels">
+                                        <h4 class="labels-header">Sync and Organize</h4>
+                                        <p class="labels-subheader">Keep your notes handy</p>
+                                    </div>
+                                </li>
+                                <li class="feature-item d-flex">
+                                    <img class="plans" src="https://img.icons8.com/?size=100&id=41414&format=png&color=000000" alt="" srcset="">
+                                    <div class="labels">
+                                        <h4 class="labels-header">Web Clipper</h4>
+                                        <p class="labels-subheader">A save button for the web</p>
+                                    </div>
+                                </li>
+                                <li class="feature-item d-flex">
+                                    <img class="plans" src="https://img.icons8.com/?size=100&id=41414&format=png&color=000000" alt="" srcset="">
+                                    <div class="labels">
+                                        <h4 class="labels-header">Tasks</h4>
+                                        <p class="labels-subheader">Bring notes &amp; to-dos together</p>
+                                    </div>
+                                </li>
+                                <li class="feature-item d-flex">
+                                    <img class="plans" src="https://img.icons8.com/?size=100&id=41414&format=png&color=000000" alt="" srcset="">
+                                    <div class="labels">
+                                        <h4 class="labels-header">Calendar</h4>
+                                        <p class="labels-subheader">Connect schedules and notes</p>
+                                    </div>
+                                </li>
+                                <li class="feature-item d-flex">
+                                    <img class="plans" src="https://img.icons8.com/?size=100&id=41414&format=png&color=000000" alt="" srcset="">
+                                    <div class="labels">
+                                        <h4 class="labels-header">Templates</h4>
+                                        <p class="labels-subheader">Create better notes, faster</p>
+                                    </div>
+                                </li>
+                                <li class="feature-item d-flex">
+                                    <img class="plans" src="https://img.icons8.com/?size=100&id=41414&format=png&color=000000" alt="" srcset="">
+                                    <div class="labels">
+                                        <h4 class="labels-header">Document Scanning</h4>
+                                        <p class="labels-subheader">Go paperless with Evernote</p>
+                                    </div>
+                                </li>
+                                <li class="feature-item d-flex">
+                                    <img class="plans" src="https://img.icons8.com/?size=100&id=41414&format=png&color=000000" alt="" srcset="">
+                                    <div class="labels">
+                                        <h4 class="labels-header">Search</h4>
+                                        <p class="labels-subheader">Find exactly what you need</p>
+                                    </div>
+                                </li>
+                                <li class="feature-item d-flex">
+                                    <img class="plans" src="https://img.icons8.com/?size=100&id=41414&format=png&color=000000" alt="" srcset="">
+                                    <div class="labels">
+                                        <h4 class="labels-header">Home</h4>
+                                        <p class="labels-subheader">See your Evernote, your way</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="feature-all">SEE ALL FEATURES →</div>
+                        </div>
+                    </li>
+                    <li class="nav-left-items" id="plans-dropdownmenu">PLANS
+                        <span class="caret">&#9660;</span>
+                        <div class="plans-dropdownmenu d-flex col-12">
+                            <ul class="plans-dropdown-list d-flex">
+                                <li class="plan-item">
+                                    <h4 class="labels-header">Evernote Free →</h4>
+                                    <p class="plan-discription">Capture ideas and find them quickly</p>
+                                    <p class="plan-price">NGN 0</p>
+                                </li>
+                                <li class="plan-item">
+                                    <h4 class="labels-header">Evernote Personal →</h4>
+                                    <p class="plan-discription">Keep home and family on track</p>
+                                    <p class="plan-price">NGN 550.00 / MONTH</p>
+                                </li>
+                                <li class="plan-item">
+                                    <h4 class="labels-header">Evernote Professional →</h4>
+                                    <p class="plan-discription">Tackle any project, at work or home</p>
+                                    <p class="plan-price">NGN 700.00 / MONTH</p>
+                                </li>
+                                <li class="plan-item">
+                                    <h4 class="labels-header">Evernote Teams →</h4>
+                                    <p class="plan-discription">Collaborate in one convenient place</p>
+                                    <p class="plan-price">NGN 2300.00 / MONTH</p>
+                                </li>
+                            </ul>
+                            <div class="feature-all move-left">COMPARE PLANS →</div>
+                        </div>
+                    </li>
+            </ul>
+        
+            <ul class="d-flex align-items-center col-2 nav-right">
+                    <li class="nav-right-items">help</li>
+                    <li class="nav-right-items" >Login</li>
+                    <li class="border-style" >Download</li>
+            </ul>
+            <div class="menu-btn hamburger ">
+                <div class="menu-btn__burger">
+                </div>
+            </div>
+            <!-- <div class="hamburger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#fff"><g data-name="Group 12094"><g data-name="menu (2)"><g data-name="Group 11371"><g data-name="Group 11370"><path data-name="Path 1394" d="M8.76 2.66H4.703A2.046 2.046 0 0 0 2.66 4.703V8.76a2.046 2.046 0 0 0 2.043 2.044H8.76a2.046 2.046 0 0 0 2.044-2.044V4.703A2.046 2.046 0 0 0 8.76 2.66Zm.663 6.1a.664.664 0 0 1-.663.663H4.703a.664.664 0 0 1-.663-.663V4.703a.664.664 0 0 1 .663-.663H8.76a.664.664 0 0 1 .663.663Z" fill="#fff"></path></g></g><g data-name="Group 11373"><g data-name="Group 11372"><path data-name="Path 1395" d="M19.269 2.66h-4a2.073 2.073 0 0 0-2.074 2.071v4a2.073 2.073 0 0 0 2.071 2.071h4a2.073 2.073 0 0 0 2.071-2.071v-4a2.073 2.073 0 0 0-2.068-2.071Zm.69 6.074a.691.691 0 0 1-.69.69h-4a.691.691 0 0 1-.69-.69v-4a.691.691 0 0 1 .69-.69h4a.691.691 0 0 1 .69.69Z" fill="#fff"></path></g></g><g data-name="Group 11375"><g data-name="Group 11374"><path data-name="Path 1396" d="M8.76 13.195H4.703a2.046 2.046 0 0 0-2.043 2.043v4.057a2.046 2.046 0 0 0 2.043 2.043H8.76a2.046 2.046 0 0 0 2.044-2.043v-4.058a2.046 2.046 0 0 0-2.044-2.042Zm.663 6.1a.664.664 0 0 1-.663.663H4.703a.664.664 0 0 1-.663-.663v-4.058a.664.664 0 0 1 .663-.663H8.76a.664.664 0 0 1 .663.663Z" fill="#fff"></path></g></g><g data-name="Group 11377"><g data-name="Group 11376"><path data-name="Path 1397" d="M19.269 13.195h-4a2.073 2.073 0 0 0-2.074 2.071v4a2.073 2.073 0 0 0 2.071 2.071h4a2.073 2.073 0 0 0 2.071-2.071v-4a2.073 2.073 0 0 0-2.068-2.071Zm.69 6.074a.691.691 0 0 1-.69.69h-4a.691.691 0 0 1-.69-.69v-4a.691.691 0 0 1 .69-.69h4a.691.691 0 0 1 .69.69Z" fill="#fff"></path></g></g></g></g></svg>
+            </div> -->
+        </nav>
+        
+
+        <div class="drawer-nav">
+            <div class="mobile-header col-12">
+               
+            </div>
+            <ul class="mobile-nav-list">
+                <li class=" mobile-nav-item ">WHY EVERNOTE</li>
+                <li class=""><!--<li class="mobile-nav-item">  -->
+                    <div class=" mobile-nav-item mobile-item d-flex justify-space-between" id="mobile-feature">FEATURES<span class="caret-mobile">&#9660;</span></div>
+                    <ul class="mobile-feature-dropdownmenu-list d-flex">
+                        <li class="mobile-feature-item d-flex">
+                            <img class="mobile-plans" src="https://img.icons8.com/?size=100&id=41414&format=png&color=000000" alt="" srcset="">
+                            <div class="mobile-labels">
+                                <h4 class="mobile-labels-header">Sync and Organize</h4>
+                                <p class="mobile-labels-subheader">Keep your notes handy</p>
+                            </div>
+                        </li>
+                        <li class="mobile-feature-item d-flex">
+                            <img class="mobile-plans" src="https://img.icons8.com/?size=100&id=41414&format=png&color=000000" alt="" srcset="">
+                            <div class="mobile-labels">
+                                <h4 class="mobile-labels-header">Web Clipper</h4>
+                                <p class="mobile-labels-subheader">A save button for the web</p>
+                            </div>
+                        </li>
+                        <li class="mobile-feature-item d-flex">
+                            <img class="mobile-plans" src="https://img.icons8.com/?size=100&id=41414&format=png&color=000000" alt="" srcset="">
+                            <div class="mobile-labels">
+                                <h4 class="mobile-labels-header">Tasks</h4>
+                                <p class="mobile-labels-subheader">Bring notes &amp; to-dos together</p>
+                            </div>
+                        </li>
+                        <li class="mobile-feature-item d-flex">
+                            <img class="mobile-plans" src="	https://img.icons8.com/?size=100&id=41414&format=png&color=000000" alt="" srcset="">
+                            <div class="mobile-labels">
+                                <h4 class="mobile-labels-header">Calendar</h4>
+                                <p class="mobile-labels-subheader">Connect schedules and notes</p>
+                            </div>
+                        </li>
+                        <li class="mobile-feature-item d-flex">
+                            <img class="mobile-plans" src="https://img.icons8.com/?size=100&id=41414&format=png&color=000000" alt="" srcset="">
+                            <div class="mobile-labels">
+                                <h4 class="mobile-labels-header">Templates</h4>
+                                <p class="mobile-labels-subheader">Create better notes, faster</p>
+                            </div>
+                        </li>
+                        <li class="mobile-feature-item d-flex">
+                            <img class="mobile-plans" src="https://img.icons8.com/?size=100&id=41414&format=png&color=000000" alt="" srcset="">
+                            <div class="mobile-labels">
+                                <h4 class="mobile-labels-header">Document Scanning</h4>
+                                <p class="mobile-labels-subheader">Go paperless with Evernote</p>
+                            </div>
+                        </li>
+                        <li class="mobile-feature-item d-flex">
+                            <img class="mobile-plans" src="https://img.icons8.com/?size=100&id=41414&format=png&color=000000" alt="" srcset="">
+                            <div class="mobile-labels">
+                                <h4 class="mobile-labels-header">Search</h4>
+                                <p class="mobile-labels-subheader">Find exactly what you need</p>
+                            </div>
+                        </li>
+                        <li class="mobile-feature-item d-flex">
+                            <img class="mobile-plans" src="https://img.icons8.com/?size=100&id=41414&format=png&color=000000" alt="" srcset="">
+                            <div class="mobile-labels">
+                                <h4 class="mobile-labels-header">Home</h4>
+                                <p class="mobile-labels-subheader">See your Evernote, your way</p>
+                            </div>
+                        <li class="mobile-feature-ite d-flex">
+                            <div class="feature-all reduce-font">SEE ALL FEATURES →</div>
+                        </li>
+                    </ul>
+                </li>
+                <li class=""><!--<li class="mobile-nav-item">  -->
+                    <div class="mobile-nav-item mobile-item" id="mobile-plan">PLANS<span class="caret-mobile move-right-7px">&#9660;</span></div>
+                    <ul class="mobile-plans-dropdown-list d-flex">
+                        <li class="mobile-plan-item">
+                            <h4 class="mobile-labels-header">Evernote Free →</h4>
+                            <p class="mobile-plan-discription">Capture ideas and find them quickly</p>
+                            <p class="mobile-plan-price">NGN 0</p>
+                        </li>
+                        <li class="mobile-plan-item">
+                            <h4 class="mobile-labels-header">Evernote Personal →</h4>
+                            <p class="mobile-plan-discription">Keep home and family on track</p>
+                            <p class="mobile-plan-price">NGN 550.00 / MONTH</p>
+                        </li>
+                        <li class="mobile-plan-item">
+                            <h4 class="mobile-labels-header">Evernote Professional →</h4>
+                            <p class="mobile-plan-discription">Tackle any project, at work or home</p>
+                            <p class="mobile-plan-price">NGN 700.00 / MONTH</p>
+                        </li>
+                        <li class="mobile-plan-item">
+                            <h4 class="mobile-labels-header">Evernote Teams →</h4>
+                            <p class="mobile-plan-discription">Collaborate in one convenient place</p>
+                            <p class="mobile-plan-price">NGN 2300.00 / MONTH</p>
+                        </li>
+                        <li class="mobile-plan-ite move-right-7pxx">
+                            <div class="feature-all reduce-font ">COMPARE PLANS →</div>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" mobile-nav-item ">HELP</li>
+                <li class=" mobile-nav-item mobile-border-style col-5">Download</li>
+                <li class="mobile-nav-img-container col-6">
+                    <img class="mobile-nav-img" src="https://evernote.com/img/download/googleplay_badge_en.svg" alt="" srcset="">
+                </li>
+            </ul>
+        </div>
+
+        <section class="d-flex  container1">
+            <h1 class="h-style">Tame your work, organize your life</h1>
+            <p class="text">Remember everything and tackle any project with your notes, tasks, and schedule all in one place.</p>
+            <p class="sign-up ">Sign up for free</p>
+            <div class="text" ><u>Already have an accout? Log in</u></div>
+        </section>
+
+        <section class="d-flex container2 col-sm-12">
+            <img src="https://evernote.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhome-widgets.b4be340b.webp&w=3840&q=75" alt="" class="col-9 min-content col-sm-11 ">
+            <ul class="aside-1  col-3 col-sm-11">
+                
+                <li class="sub">
+                    <div class="aside-1-list-head d-flex">work anywhere</div>
+                    <div class="aside-1-list-sub-head">Keep important info handy- your notessync automatically to all your devices.</div>
+                </li>
+                <li class="not-sub"><div class="aside-1-list-head">work anywhere</div>Keep important info handy- your notessync automatically to all your devices.</li>
+                <li class="not-sub"><div class="aside-1-list-head">remember<br>everything</div>Make notes more useful by adding text, images, audio, scan, PDFs, and documents.</li>
+                <li class="not-sub"><div class="aside-1-list-head">TURN TO-DO INTO DONE</div>Bring your notes, tasks, and schedules together to get things done more easily.</li>
+                <li class="not-sub"><div class="aside-1-list-head">find things fast</div>Get what you need, when you need it with powerful, flexible search capabilities.</li>
+            </ul>
+        </section>
+
+        <section class="container3 d-flex ">
+            <h1 class="h-style-2">Find your productivity happy place</h1>
+            <p>See what’s possible with Evernote</p>
+            <a href="https://www.youtube.com/embed/NgkCgqIogcY/?rel=0" class="d-flex link-style col-9">
+                <img src="https://evernote.com/c/assets/homepage-repackaging/repackaging-video@2x.png?7eacede413310329" srcset="https://evernote.com/c/assets/homepage-repackaging/repackaging-video@2x.png?7eacede413310329 1x,  2x" alt="" class="img-video col-12">
+            </a>
+        </section>
+        <section class="container9 d-flex col-12">
+            <div class="quote-image">
+                <img class="quote-img" src="https://evernote.com/c/assets/homepage/homepage-quote.svg?57f9da0de97e581d" alt="" srcset="">
+            </div>
+            <blockquote id="testQuote" class="logo-carousel-quote col-8">It feels like there are endless ways to use Evernote… Use it for school, work, life, and beyond.</blockquote>
+            <blockquote id="testQuoteLogo" class="logo-carousel-company" >— Forbes</blockquote>
+            <div class="logo-carousel-wrapper" id="logoid">
+                <img id="logo0" class="logo" src="https://evernote.com/_next/image?url=%2Fimages%2Ftestimonials%2Fcompanies%2Fforbes.webp&w=128&q=75" alt="">
+                <img id="logo1" class="logo" src="https://evernote.com/_next/image?url=%2Fimages%2Ftestimonials%2Fcompanies%2Finc.webp&w=128&q=75" alt="">
+                <img id="logo2" class="logo" src="https://evernote.com/_next/image?url=%2Fimages%2Ftestimonials%2Fcompanies%2Fthe-verge.webp&w=128&q=75" alt="">
+                <img id="logo3" class="logo" src="https://evernote.com/_next/image?url=%2Fimages%2Ftestimonials%2Fcompanies%2Fentrepreneur-magazine.webp&w=128&q=75" alt="">
+                <img id="logo4" class="logo" src="https://evernote.com/_next/image?url=%2Fimages%2Ftestimonials%2Fcompanies%2Fbusiness-com.webp&w=128&q=75" alt="">
+                <img id="logo5" class="logo" src="https://evernote.com/_next/image?url=%2Fimages%2Ftestimonials%2Fcompanies%2Fwell-good.webp&w=128&q=75" alt="">
+            </div>
+        </section>
+        <section class="container4  d-flex col-12  ">
+            <div class="section1 col-5 col-sm-11">
+                <!-- <img class="obj" src="https://evernote.com/_next/image?url=%2Fimages%2Fsplit%2Fsketches.webp&w=640&q=75" alt="" srcset=""> -->
+                <h3>Hit every deadline</h3>
+                <p>Create and assign tasks inside your notes with due dates, flags, and reminders so nothing falls through the cracks.
+                </p>
+                <div class="learn-more">Learn more &#8594</div>
+            </div>
+            <div class="d-flex flex-end col-6 col-sm-12 come-first">
+                <img src="https://evernote.com/_next/image?url=%2Fimages%2Fsplit%2Fsketches.webp&w=640&q=75" alt="" srcset="" class="card-img col-10 col-sm-12 scale-1"></div>
+        </section>
+        <section class="container4  d-flex col-12  ">
+            <div class="d-flex  col-6 col-sm-12"><img src="https://evernote.com/_next/image?url=%2Fimages%2Fsplit%2Fsketches.webp&w=640&q=75" alt="" srcset="" class="card-img col-10 col-sm-12 scale-1"></div>
+            <div class="section1 col-5 col-sm-11">
+                <img src="https://evernote.com/c/assets/homepage-repackaging/doc-scanning.svg?cd1994c0f7e0ed89" alt="" srcset="">
+                <h3>Go paperless</h3>
+                <p>Scan important documents and keep them handy on all your devices. Save the information—not the clutter.
+                </p>
+                <div class="learn-more">Learn more <span>&#8594</span></div>
+            </div>
+        </section>
+        <section class="container4  d-flex col-12  ">
+            <div class="section1 col-5 col-sm-11">
+                <img src="https://evernote.com/c/assets/homepage-repackaging/web-clipping.svg?b0754e37c6f8b140" alt="" srcset="">
+                <h3>Clip the web</h3>
+                <p>Save web pages (without the ads) and mark them up with arrows, highlights, and text to make them more useful.
+                </p>
+                <div class="learn-more">Learn more &#8594</div>
+            </div>
+            <div class="d-flex flex-end col-6 col-sm-12 come-first">
+                <img src="https://evernote.com/_next/image?url=%2Fimages%2Fsplit%2Feasy-search.webp&w=640&q=75" alt="" srcset="" class="card-img col-10 col-sm-12 scale-1"></div>
+        </section>
+        <section class="container4  d-flex col-12  ">
+            <div class="d-flex  col-6 col-sm-12"><img  src="https://evernote.com/_next/image?url=%2Fimages%2Fsplit%2Fteamwork.webp&w=640&q=75" alt="" srcset="" class="card-img col-10 col-sm-12 scale-1"></div>
+            <div class="section1 col-5 col-sm-11">
+                <img src="https://evernote.com/c/assets/homepage-repackaging/calendar_icon.svg?1028b904a846599c" alt="" srcset="">
+                <h3>Connect your Google Calendar</h3>
+                <p>Make your schedule work for you. Your meetings and notes have context so nothing gets lost in the shuffle.
+                </p>
+                <div class="learn-more">Learn more <span>&#8594</span></div>
+            </div>
+        </section>
+        <section class="container5 d-flex col-9 ">
+            <h3>Find your Evernote</h3>
+            <p>Whether you want to get organized, keep your personal life on track, or boost workplace productivity, Evernote has the right plan for you.</p>
+            <div class="compare-plan">COMPARE PLANS →</div>
+        </section>
+        <section class="container6 col-11 d-flex">
+            <div class="  container6-item col-md-11">
+                <ul class="container6-list">
+                    <li class="c6-list-item  justify-space-between ">
+                        <div class="feature-title">FREE</div>
+                        <div class="feature-expand1">
+                            <i class="feature-icon">
+                                 <a name="compare/_expand-2" style="position:absolute;"></a>
+                                    <svg class="svg-icon" width="31" height="31" viewBox="0 0 30.33 30.27" fill="#00A82D" xmlns="http://www.w3.org/2000/svg">
+                                         <title>Click to expand</title>
+                                                <path class="st0" d="M15,0C6.7,0,0,6.7,0,15c0,8.3,6.7,15,15,15c8.3,0,15-6.7,15-15C30,6.7,23.3,0,15,0z M15,18.7l-6-6l1.4-1.4
+                                            l4.6,4.6l4.6-4.6l1.4,1.4L15,18.7z"></path>
+                                     </svg>
+                             </i>
+                        </div>
+                    </li>
+                    <li class="c6-list-item feature-price">NGN 0</li>
+                    <li class="c6-list-item feature-note ">Capture ideas and find them quickly</li>
+                    <li>
+                        <ul class="out1">
+                            <li class="c6-list-item"><i class="fa-solid fa-check"></i> </i> Take great notes</li>
+                            <li class="c6-list-item"><i class="fa-solid fa-check"></i> </i> Sync up to 2 devices </li>
+                            <li class="c6-list-item"><i class="fa-solid fa-check"></i> </i> 60 MB monthly uploads</li>
+                            <li class="c6-list-item"><i class="fa-solid fa-check"></i> </i> 25 MB max. note size</li>
+                            <li class="c6-list-item"><i class="fa-solid fa-check"></i> </i> Get organized with Home dashboard and 3 widgets</li>
+                            <li class="c6-list-item"><i class="fa-solid fa-check"></i> </i> Stay on top of it all with in-note tasks</li>
+                            <li class="c6-list-item"><i class="fa-solid fa-check"></i> </i> Find things fast with search and tags</li>
+                            <li class="c6-list-item"><i class="fa-solid fa-check"></i> </i> Clip web pages</li>
+                            <li class="c6-list-item"><i class="fa-solid fa-check"></i> </i> Attach PDFs, receipts, files, photos, images, and documents</li>
+                            <li class="c6-list-item"><i class="fa-solid fa-check"></i> </i> Take great notes</li>
+                        </ul>
+                    </li>
+                   
+                    <li class=""><a href="#" class="get-started-link">Get Started</a></li>
+                </ul>
+            </div>
+            <div class="container6-item container6-notfirstchild col-md-11">
+                <ul class="container6-list">
+                    <li class="c6-list-item justify-space-between ">
+                         <div class="feature-title">PERSONAL</div>
+                         <div class="feature-expand2">
+                            <i class="feature-icon">
+                                 <a name="compare/_expand-2" style="position:absolute;"></a>
+                                    <svg class="svg-icon" width="31" height="31" viewBox="0 0 30.33 30.27" fill="#00A82D" xmlns="http://www.w3.org/2000/svg">
+                                         <title>Click to expand</title>
+                                                <path class="st0" d="M15,0C6.7,0,0,6.7,0,15c0,8.3,6.7,15,15,15c8.3,0,15-6.7,15-15C30,6.7,23.3,0,15,0z M15,18.7l-6-6l1.4-1.4
+                                            l4.6,4.6l4.6-4.6l1.4,1.4L15,18.7z"></path>
+                                     </svg>
+                             </i>
+                        </div>
+                        </li>
+                        
+                    <li class="c6-list-item feature-price"> NGN 550.00  </li>
+                    <li class="c6-list-item feature-month">/ MONTH</li>
+                    <li class="c6-list-item feature-note"> Keep home and family on track</li>
+                    <li>
+                        <ul class="out2">
+                            <li class="c6-list-item feature-text"><i class="fa-solid fa-arrow-left"></i> </i> EVERYTHING IN FREE, PLUS:</li>
+                            <li class="c6-list-item"><i class="fa-solid fa-check"></i> </i> Sync unlimited devices</li>
+                            <li class="c6-list-item"><i class="fa-solid fa-check"></i> </i> 10 GB monthly uploads</li>
+                            <li class="c6-list-item"><i class="fa-solid fa-check"></i> </i> 200 MB max. note size</li>
+                            <li class="c6-list-item"><i class="fa-solid fa-check"></i> </i> Customize Home dashboard and access extra widgets</li>
+                            <li class="c6-list-item"><i class="fa-solid fa-check"></i> </i> Connect primary Google Calendar account</li>
+                            <li class="c6-list-item"><i class="fa-solid fa-check"></i> </i> Add due dates, reminders, and notifications to your tasks</li>
+                            <li class="c6-list-item"><i class="fa-solid fa-check"></i> </i> Manage tasks in one place</li>
+                            <li class="c6-list-item"><i class="fa-solid fa-check"></i> </i> Get offline access on mobile and desktop</li>
+                            <li class="c6-list-item"><i class="fa-solid fa-check"></i> </i> Search text inside images, docs, and PDFs</li>
+                            <li class="c6-list-item"><i class="fa-solid fa-check"></i> </i> Create custom templates</li>
+                            <li class="c6-list-item"><i class="fa-solid fa-check"></i> </i> Mark up images and PDFs</li>
+                        </ul>
+                    </li>
+                    <li class="c6-list-item"><a href="#" class="get-started-link">Choose Professional</a></li>
+                </ul>
+            </div>
+            <div class="container6-item container6-notfirstchild col-md-11">
+                <ul class="container6-list">
+                    <li class="c6-list-item justify-space-between">
+                        <div class="feature-title">PROFESSIONAL</div>
+                        <div class="feature-expand3">
+                            <i class="feature-icon">
+                                 <a name="compare/_expand-2" style="position:absolute;"></a>
+                                    <svg class="svg-icon" width="31" height="31" viewBox="0 0 30.33 30.27" fill="#00A82D" xmlns="http://www.w3.org/2000/svg">
+                                         <title>Click to expand</title>
+                                                <path class="st0" d="M15,0C6.7,0,0,6.7,0,15c0,8.3,6.7,15,15,15c8.3,0,15-6.7,15-15C30,6.7,23.3,0,15,0z M15,18.7l-6-6l1.4-1.4
+                                            l4.6,4.6l4.6-4.6l1.4,1.4L15,18.7z"></path>
+                                     </svg>
+                             </i>
+                        </div>
+                    </li>
+                    <li class="c6-list-item feature-price"> NGN 700.00 </li>
+                    <li class="c6-list-item feature-month">/ MONTH</li>
+                    <li class="c6-list-item feature-note"> Tackle any project, at work or at home</li>
+                    <li>
+                        <ul class="out3">
+                            <li class="c6-list-item feature-text"><i class="fa-solid fa-arrow-left"></i> </i> EVERYTHING IN PERSONAL, PLUS:</li>
+                            <li class="c6-list-item"><i class="fa-solid fa-check"></i> </i> Save 2x more content with 20 GB monthly uploads</li>
+                            <li class="c6-list-item"><i class="fa-solid fa-check"></i> </i> Access to all widgets and customization for Home</li>
+                            <li class="c6-list-item"><i class="fa-solid fa-check"></i> </i> Connect both personal and workplace Google Calendar accounts</li>
+                            <li class="c6-list-item"><i class="fa-solid fa-check"></i> </i> Create, manage, and assign tasks to others, and easily track their progress</li>
+                            <li class="c6-list-item"><i class="fa-solid fa-check"></i> </i> Use Boolean terms to refine search results</li>
+                            <li class="c6-list-item"><i class="fa-solid fa-check"></i> </i> Find content by location with geographic search</li>
+                            <li class="c6-list-item"><i class="fa-solid fa-check"></i> </i> Export notebooks as PDF files</li>
+                            <li class="c6-list-item"><i class="fa-solid fa-check"></i> </i> <span>Integrate with Slack, Salesforce, Microsoft Teams, and others</span> </li>
+                        </ul>
+                    </li>
+                    <li class="c6-list-item"><a href="#" class="get-started-link">Choose Personal</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="container7  col-9 col-md-11">
+            <div class="d-flex justify-space-between ">
+                <h5 class="move-4px">EVERNOTE TEAMS</h5>
+                <i class="navigate-icon mobile-only"><img src="https://evernote.com/img/icons/navigate-mobile.svg" alt=""></i>
+            </div>
+            
+            <div class="d-flex justify-space-between align-items-center" >
+                 <div class="d-flex align-items-center">
+                    <div class="feature-price d-flex">NGN 2,300.00</div>
+                    <div class="feature-month move-4px">/ USER / MONTH </div>
+                </div>
+                <img src="https://evernote.com/img/icons/navigate-desktop.svg" alt="" class="align-self-center team-link-img">
+            </div>
+            <div class="Collaborate">Collaborate and share knowledge to keep your team on the same page.</div>
+            <a href="#" class="get-started-link">Choose Teams</a>
+        </section>
+        <footer class="col-12 footer">
+            <section class="footer-nav">
+                <img src="https://evernote.com/img/logo/evernote/primary.svg" alt="evernote logo">
+                <div class="line col-12"></div>
+            </section>
+    
+            <section class="container8  d-flex" >
+                    <ul class="footer-item-list">
+                        <li class="footer-item-first">PRODUCTS</li>
+                        <li class="footer-item">Why Evernote</li>
+                        <li class="footer-item">Evernote Free</li>
+                        <li class="footer-item">Evernote Personal</li>
+                        <li class="footer-item">Evernote Proffessional</li>
+                        <li class="footer-item">Evernote Teams</li>
+                        <li class="footer-item">Compare Plans</li>
+                        <li class="footer-item">Download App</li>
+                        <li class="footer-item">Student Discount</li>
+                    </ul>
+                
+                    <ul class="footer-item-list">
+                        <li class="footer-item-first">FEATURES</li>
+                        <li class="footer-item"> Clipper </li>
+                        <li class="footer-item"> Templates </li> 
+                        <li class="footer-item"> Spaces </li> 
+                        <li class="footer-item"> Integrations </li> 
+                        <li class="footer-item"> Notes Sync </li> 
+                        <li class="footer-item"> PDF & Doc Search </li> 
+                        <li class="footer-item"> Search Handwriting </li> 
+                        <li class="footer-item"> Document Scanning </li> 
+                        <li class="footer-item"> Notebooks & Tags </li> 
+                        <li class="footer-item"> Tasks </li> 
+                        <li class="footer-item"> Calendar </li> 
+                        <li class="footer-item"> Home </li> 
+                        <li class="footer-item"> Search </li> 
+                    </ul>
+                
+                    <ul class="footer-item-list">
+                        <li class="footer-item-first">RESOURCES</li>
+                        <li class="footer-item">Our Community </li>
+                        <li class="footer-item">Certified Consultants </li>
+                        <li class="footer-item">Beta Program </li>
+                        <li class="footer-item">Developers </li>
+                        <li class="footer-item">Forum </li>
+                    </ul>
+                    
+                    <ul class="footer-item-list">
+                        <li class="footer-item-first">SUPPORT</li>
+                        <li class="footer-item">Help & Learning </li>
+                        <li class="footer-item">Troubleshooting </li>
+                        <li class="footer-item">Blog </li>
+                    </ul>
+                    
+                    <ul class="footer-item-list">
+                        <li class="footer-item-first">COMPANY</li>
+                        <li class="footer-item">About Us</li>
+                        <li class="footer-item">Careers</li>
+                        <li class="footer-item">Contact Us</li>
+                    </ul>
+                
+            </section>
+
+            <section class="d-flex justify-space-between footer-last1">
+                <div class="line-last col-12 color-black"></div>
+                <div class="choose-language d-flex justify-space-between">
+                    
+                    <div>
+                        Choose Language: <span class="more-1">&#9660;</span>
+                    </div>
+                    <div>
+                        <span>English (US) <span class="more-2">&#9660;</span></span>
+                    </div>
+                </div>
+                <div class="d-flex justify-space-between col-3 social" >
+                    <img src="https://evernote.com/c/assets/social/facebook.svg?b4095a2e8b81f1de" alt="" srcset="">
+                    <img src="https://evernote.com/c/assets/social/twitter.svg?4ae3561f5520afd8" alt="" srcset="">
+                    <img src="https://evernote.com/c/assets/social/medium.svg?51e1a23bc104a179" alt="" srcset="">
+                    <img src="https://evernote.com/c/assets/social/instagram.svg?6f37de99a4b7f6f3" alt="" srcset="">
+                    <img src="https://evernote.com/c/assets/social/instagram.svg?6f37de99a4b7f6f3" alt="" srcset="">
+                    <img src="https://evernote.com/c/assets/social/linkedin.svg?f9ad1f167cba8f81" alt="" srcset="">
+                </div>
+            </section>
+            <div class="line-last col-12"></div>
+            <section class="d-flex justify-space-between footer-last">
+                <p class="copyright">© 2022 Evernote Corporation. All rights reserved.</p>
+                <div class="col-2 d-flex justify-space-between security ">
+                    <span>Security</span>
+                    <span>Legal</span>
+                    <span>Privacy</span>
+                </div>
+                
+            </section> 
+            <!-- just adding content -->
+        </footer>
+    </div>
+
+
+
+
+
+      
+       
+        
+
+        <!-- <img src="https://evernote.com/img/logo/evernote/primary.svg" alt="" class="foot-img" > -->
+        <!-- <div class="line col-12"></div> -->
+    <script src="./index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</body>
+</html>
