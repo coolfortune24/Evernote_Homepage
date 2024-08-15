@@ -18,7 +18,9 @@
     height: auto;
     object-fit: cover;
 }
-
+.pointer{
+    cursor: pointer;
+}
 .d-flex{
     display: flex;
 }
@@ -138,6 +140,7 @@ nav>*{
     margin-bottom: 18px;
     color: white;
     border-radius: 3px;
+    cursor: pointer;
   }
 .container2{
     flex-direction: row;
@@ -399,6 +402,7 @@ footer{
     padding-right: 5px;
     font-size: 0.85rem;
     font-weight: 100;
+    cursor: pointer;
 }
 .footer-last{
     color: #888b8d;
